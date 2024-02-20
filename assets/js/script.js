@@ -27,3 +27,4 @@ if (age < 18) { //SE meno di 18 anni
     ticketPrice = (ticketPrice - oldDiscount);
 }
 
+console.log(ticketPrice);
