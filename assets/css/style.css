@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(185 20 80);
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+#layout {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title_light {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-shadow: 1px 1px gray;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+
+    &>#ticket_calc {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    & .km_container,
+    .age_container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    & label {
+        display: block;
+    }
+
+    & input {
+        border-color: var(--primary-color);
+        padding: 0.5rem;
+        text-align: center;
+    }
+}

@@ -28,3 +28,9 @@ if (age < 18) { //SE meno di 18 anni
 }
 
 console.log(ticketPrice);
+
+
+//Elements from HTML
+
+document.querySelector('.km_input').innerHTML = km
+document.querySelector('.age_input')
