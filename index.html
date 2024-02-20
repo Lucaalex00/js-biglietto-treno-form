@@ -13,26 +13,31 @@
         <div class="ticket_calc_section">
             <h1 class="title_light">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
             <div class="card">
-                <form id="ticket_calc" action="#">
-                    <div class="km_container">
-                        <label for="km">Inserisci i km</label>
-                        <input class="km_input" type="text" placeholder="Inserisci i km">
-                    </div>
-                    <div class="age_container">
-                        <label for="age">Inserisci l'età</label>
-                        <input class="age_input" type="text" placeholder="Inserisci l'età">
-
-                    </div>
-                    <button class="submit"> Confirm</button>
-                </form>
+                <div class="card_top">
+                    <form id="ticket_calc" action="#">
+                        <div class="userinfo_container">
+                            <label for="userinfo">Inserisci Nome e Cognome</label>
+                            <input class="userinfo_input" type="text" placeholder="Inserisci nome & cognome">
+                        </div>
+                        <div class="km_container">
+                            <label for="km">Inserisci i km</label>
+                            <input class="km_input" type="text" placeholder="Inserisci i km">
+                        </div>
+                        <div class="age_container">
+                            <label for="age">Inserisci l'età</label>
+                            <input class="age_input" type="text" placeholder="Inserisci l'età">
+                    </form>
+                </div>
+                <div class="card_bot">
+                    <button id="button" class="submit"> Confirm</button>
+                </div>
             </div>
+            <div class="ticket_info_section"></div>
         </div>
-        <div class="ticket_info_section"></div>
-    </div>
 
 
 
-    <script src="./assets/js/script.js"></script> <!--MY SCRIPT JS-->
+        <script src="./assets/js/script.js"></script> <!--MY SCRIPT JS-->
 </body>
 
 </html>

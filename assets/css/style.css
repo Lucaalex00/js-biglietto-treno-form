@@ -35,13 +35,14 @@ body {
     box-shadow: 1px 1px 5px black;
     text-align: center;
 
-    &>#ticket_calc {
+    & #ticket_calc {
         display: flex;
         justify-content: space-evenly;
     }
 
     & .km_container,
-    .age_container {
+    .age_container,
+    .userinfo_container {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
