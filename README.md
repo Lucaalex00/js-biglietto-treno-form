@@ -34,6 +34,7 @@ Questo richiederà un minimo di ricerca - come quelle fatte in classe
 - mathematic calc
 - toFixed on console.log
 - addEventListener
+- querySelector
 - HTML Form 
 - HTML Input
 - HTML Button
