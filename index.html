@@ -26,18 +26,54 @@
                         <div class="age_container">
                             <label for="age">Inserisci l'età</label>
                             <input class="age_input" type="text" placeholder="Inserisci l'età">
+                        </div>
                     </form>
                 </div>
                 <div class="card_bot">
-                    <button id="button" class="submit"> Confirm</button>
+                    <button id="submit" class="submit"> Confirm</button>
+                    <button id="remove" class="remove"> Remove </button>
                 </div>
             </div>
-            <div class="ticket_info_section"></div>
         </div>
+        <div class="ticket_info_section">
+            <h1 class="title_light">IL TUO BIGLIETTO</h1>
+            <div class="card">
+                <div class="card_top">
+                    <h3>DETTAGLIO PASSEGGERI</h3>
+                </div>
+                <div class="card_bot">
+                    <div class="box">
+                        <div class="name">
+                            <h5>NOME PASSEGGERO</h5>
+                            <div id="name"></div>
+                        </div>
+                        <div class="offer">
+                            <h5>Offerta</h5>
+                            <div id="offer_random"></div>
 
 
+                        </div>
+                        <div class="seat">
+                            <h5>Carrozza</h5>
+                            <div id="seat_random"></div>
 
-        <script src="./assets/js/script.js"></script> <!--MY SCRIPT JS-->
+                        </div>
+                        <div class="code">
+                            <h5>Codice CP</h5>
+                            <div id="code_random"></div>
+
+                        </div>
+                        <div class="ticket_cost">
+                            <h5>Costo biglietto</h5>
+                            <div id="ticket_cost"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script> <!--MY SCRIPT JS-->
 </body>
 
 </html>

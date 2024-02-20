@@ -1,3 +1,7 @@
+/****************
+    UTILITIES
+****************/
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +21,7 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .title_light {
@@ -27,6 +31,8 @@ body {
     text-shadow: 1px 1px gray;
 }
 
+
+/* CARD */
 .card {
     background-color: white;
     border: 1px solid gray;
@@ -57,4 +63,73 @@ body {
         padding: 0.5rem;
         text-align: center;
     }
+
+}
+
+.card_top>h3 {
+    text-align: left;
+}
+
+.card_bot {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+
+    /* BUTTON */
+    & button {
+        padding: 0.5rem;
+        color: var(--primary-color);
+        background-color: lightgray;
+        font-weight: bold;
+        font-size: 1rem;
+        border-radius: 10px;
+
+    }
+}
+
+button {
+    transition: 500ms;
+}
+
+button:hover {
+    border: 2px solid orange;
+}
+
+button:active {
+    background-color: rgba(128, 128, 128, 0.466);
+}
+
+/* BOX INFO SECTION */
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: gray;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.offer,
+.seat,
+.code,
+.ticket_cost {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0.5rem 0;
 }
